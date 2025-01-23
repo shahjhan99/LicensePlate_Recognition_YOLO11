@@ -10,4 +10,4 @@ roboflow
 openpyxl
 setuptools
 supervision
-opencv
+
