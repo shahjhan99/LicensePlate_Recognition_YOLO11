@@ -1,9 +1,11 @@
 streamlit==1.25.0
 opencv-python-headless==4.8.1.78
 pandas==2.1.1
-numpy==1.25.2
+numpy>=1.26.0
 matplotlib==3.8.0
 easyocr==1.7.0
 ultralytics==11.0.0
 roboflow==0.2.36
 openpyxl==3.1.2
+setuptools
+
