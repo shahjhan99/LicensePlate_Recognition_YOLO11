@@ -128,7 +128,7 @@ def main():
 
     uploaded_file = st.file_uploader("Upload a Video", type=["mp4", "avi", "mov", "mkv"])
      # Add the credit in the sidebar
-    st.sidebar.markdown("### Project developed by Shahjhan99 \n Mail:  shahjhangondal99@gamil.com")
+    st.sidebar.markdown("### Project developed by Shahjhan99 \n Mail:  shahjhangondal99@gmail.com")
 
     if uploaded_file is not None:
         # Save uploaded file to temporary location
