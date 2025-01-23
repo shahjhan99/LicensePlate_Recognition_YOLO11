@@ -126,7 +126,7 @@ def process_video(video_file):
 def main():
     st.title("License Plate Detection with YOLO and OCR")
 
-    uploaded_file = st.file_uploader("Upload a Video", type=["mp4", "avi", "mov", "mkv"])
+    uploaded_file = st.file_uploader("Upload a Video", type=["mp4", "avi", "mov", "mkv","jpeg","png"])
      # Add the credit in the sidebar
     st.sidebar.markdown("### Project developed by Shahjhan99 \n Mail:  shahjhangondal99@gmail.com")
 
